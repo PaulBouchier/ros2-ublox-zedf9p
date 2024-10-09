@@ -47,6 +47,11 @@ Note: Values are published on `/fix` topic
    
    ```sudo apt-get install libasio-dev```
 Source and build again.
+2. `Could not find a package configuration file provided by diagnostic_updater`: To
+fix it, install the diagnostic_updater package on your system.
+
+   ```sudo apt-get install ros-<release>-diagnostic-updater```
+Source and build again.
 
 
 ## Options
